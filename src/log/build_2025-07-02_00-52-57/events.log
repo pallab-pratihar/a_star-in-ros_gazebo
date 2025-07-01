@@ -1,0 +1,201 @@
+[0.000000] (-) TimerEvent: {}
+[0.000367] (turtlebot3_project3) JobQueued: {'identifier': 'turtlebot3_project3', 'dependencies': OrderedDict()}
+[0.001714] (turtlebot3_project3) JobStarted: {'identifier': 'turtlebot3_project3'}
+[0.042211] (turtlebot3_project3) JobProgress: {'identifier': 'turtlebot3_project3', 'progress': 'cmake'}
+[0.073867] (turtlebot3_project3) JobProgress: {'identifier': 'turtlebot3_project3', 'progress': 'build'}
+[0.073913] (turtlebot3_project3) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pallab/project4_ws/src/build/turtlebot3_project3', '--', '-j16', '-l16'], 'cwd': '/home/pallab/project4_ws/src/build/turtlebot3_project3', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pallab'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/pallab'), ('OLDPWD', '/home/pallab/project4_ws'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pallab/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pallab'), ('NAME', 'DESKTOP-09E70UC'), ('WSL_INTEROP', '/run/WSL/1511_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python311/Scripts/:/mnt/c/Python311/:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/dotnet/:/mnt/c/Users/Papiya/AppData/Local/Programs/Eclipse Adoptium/jdk-17.0.7.7-hotspot/bin:/mnt/c/Users/Papiya/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Papiya/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.2/bin:/mnt/c/Users/Papiya/AppData/Local/GitHubDesktop/bin:/snap/bin'), ('WT_SESSION', '7847f9b2-dccd-4315-b16a-5f2f5b87707c'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pallab/ros2_ws/install/hospital_robot_spawner:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pallab/project4_ws/src/build/turtlebot3_project3'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pallab/ros2_ws/install/hospital_robot_spawner/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/home/pallab/ros2_ws/install/hospital_robot_spawner:/opt/ros/humble')]), 'shell': False}
+[0.105134] (-) TimerEvent: {}
+[0.192647] (turtlebot3_project3) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o\x1b[0m\n'}
+[0.205240] (-) TimerEvent: {}
+[0.305508] (-) TimerEvent: {}
+[0.405777] (-) TimerEvent: {}
+[0.506065] (-) TimerEvent: {}
+[0.606581] (-) TimerEvent: {}
+[0.706850] (-) TimerEvent: {}
+[0.807112] (-) TimerEvent: {}
+[0.907411] (-) TimerEvent: {}
+[1.007765] (-) TimerEvent: {}
+[1.108124] (-) TimerEvent: {}
+[1.208431] (-) TimerEvent: {}
+[1.308806] (-) TimerEvent: {}
+[1.409208] (-) TimerEvent: {}
+[1.509870] (-) TimerEvent: {}
+[1.610613] (-) TimerEvent: {}
+[1.711332] (-) TimerEvent: {}
+[1.811963] (-) TimerEvent: {}
+[1.912697] (-) TimerEvent: {}
+[2.013420] (-) TimerEvent: {}
+[2.113990] (-) TimerEvent: {}
+[2.214560] (-) TimerEvent: {}
+[2.315094] (-) TimerEvent: {}
+[2.415639] (-) TimerEvent: {}
+[2.516124] (-) TimerEvent: {}
+[2.616625] (-) TimerEvent: {}
+[2.717347] (-) TimerEvent: {}
+[2.817875] (-) TimerEvent: {}
+[2.918398] (-) TimerEvent: {}
+[3.019014] (-) TimerEvent: {}
+[3.119647] (-) TimerEvent: {}
+[3.220142] (-) TimerEvent: {}
+[3.320480] (-) TimerEvent: {}
+[3.420801] (-) TimerEvent: {}
+[3.521096] (-) TimerEvent: {}
+[3.621416] (-) TimerEvent: {}
+[3.721813] (-) TimerEvent: {}
+[3.822190] (-) TimerEvent: {}
+[3.922585] (-) TimerEvent: {}
+[4.022961] (-) TimerEvent: {}
+[4.123252] (-) TimerEvent: {}
+[4.223551] (-) TimerEvent: {}
+[4.323833] (-) TimerEvent: {}
+[4.424160] (-) TimerEvent: {}
+[4.524452] (-) TimerEvent: {}
+[4.624746] (-) TimerEvent: {}
+[4.725041] (-) TimerEvent: {}
+[4.825475] (-) TimerEvent: {}
+[4.925805] (-) TimerEvent: {}
+[5.026120] (-) TimerEvent: {}
+[5.126452] (-) TimerEvent: {}
+[5.226768] (-) TimerEvent: {}
+[5.327108] (-) TimerEvent: {}
+[5.427429] (-) TimerEvent: {}
+[5.527780] (-) TimerEvent: {}
+[5.628064] (-) TimerEvent: {}
+[5.728422] (-) TimerEvent: {}
+[5.828779] (-) TimerEvent: {}
+[5.929089] (-) TimerEvent: {}
+[6.029472] (-) TimerEvent: {}
+[6.129943] (-) TimerEvent: {}
+[6.230404] (-) TimerEvent: {}
+[6.330756] (-) TimerEvent: {}
+[6.431041] (-) TimerEvent: {}
+[6.531369] (-) TimerEvent: {}
+[6.631708] (-) TimerEvent: {}
+[6.732003] (-) TimerEvent: {}
+[6.832340] (-) TimerEvent: {}
+[6.932611] (-) TimerEvent: {}
+[7.032976] (-) TimerEvent: {}
+[7.133257] (-) TimerEvent: {}
+[7.233626] (-) TimerEvent: {}
+[7.333961] (-) TimerEvent: {}
+[7.434271] (-) TimerEvent: {}
+[7.534610] (-) TimerEvent: {}
+[7.634920] (-) TimerEvent: {}
+[7.735241] (-) TimerEvent: {}
+[7.835586] (-) TimerEvent: {}
+[7.935925] (-) TimerEvent: {}
+[8.036292] (-) TimerEvent: {}
+[8.136583] (-) TimerEvent: {}
+[8.236849] (-) TimerEvent: {}
+[8.337154] (-) TimerEvent: {}
+[8.437470] (-) TimerEvent: {}
+[8.537781] (-) TimerEvent: {}
+[8.638081] (-) TimerEvent: {}
+[8.738427] (-) TimerEvent: {}
+[8.838771] (-) TimerEvent: {}
+[8.939208] (-) TimerEvent: {}
+[9.039598] (-) TimerEvent: {}
+[9.139880] (-) TimerEvent: {}
+[9.240306] (-) TimerEvent: {}
+[9.340625] (-) TimerEvent: {}
+[9.440903] (-) TimerEvent: {}
+[9.541228] (-) TimerEvent: {}
+[9.641583] (-) TimerEvent: {}
+[9.742015] (-) TimerEvent: {}
+[9.842329] (-) TimerEvent: {}
+[9.942608] (-) TimerEvent: {}
+[10.042985] (-) TimerEvent: {}
+[10.143283] (-) TimerEvent: {}
+[10.243612] (-) TimerEvent: {}
+[10.343933] (-) TimerEvent: {}
+[10.444301] (-) TimerEvent: {}
+[10.544645] (-) TimerEvent: {}
+[10.644942] (-) TimerEvent: {}
+[10.745226] (-) TimerEvent: {}
+[10.845553] (-) TimerEvent: {}
+[10.945822] (-) TimerEvent: {}
+[11.046104] (-) TimerEvent: {}
+[11.146381] (-) TimerEvent: {}
+[11.246742] (-) TimerEvent: {}
+[11.347142] (-) TimerEvent: {}
+[11.447431] (-) TimerEvent: {}
+[11.527390] (turtlebot3_project3) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtlebot3_drive\x1b[0m\n'}
+[11.547560] (-) TimerEvent: {}
+[11.647908] (-) TimerEvent: {}
+[11.748267] (-) TimerEvent: {}
+[11.848750] (-) TimerEvent: {}
+[11.949133] (-) TimerEvent: {}
+[12.049543] (-) TimerEvent: {}
+[12.149940] (-) TimerEvent: {}
+[12.250368] (-) TimerEvent: {}
+[12.350789] (-) TimerEvent: {}
+[12.451129] (-) TimerEvent: {}
+[12.551451] (-) TimerEvent: {}
+[12.556653] (turtlebot3_project3) StdoutLine: {'line': b'[100%] Built target turtlebot3_drive\n'}
+[12.569212] (turtlebot3_project3) CommandEnded: {'returncode': 0}
+[12.602508] (turtlebot3_project3) JobProgress: {'identifier': 'turtlebot3_project3', 'progress': 'install'}
+[12.615292] (turtlebot3_project3) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pallab/project4_ws/src/build/turtlebot3_project3'], 'cwd': '/home/pallab/project4_ws/src/build/turtlebot3_project3', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pallab'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/pallab'), ('OLDPWD', '/home/pallab/project4_ws'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pallab/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pallab'), ('NAME', 'DESKTOP-09E70UC'), ('WSL_INTEROP', '/run/WSL/1511_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python311/Scripts/:/mnt/c/Python311/:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/dotnet/:/mnt/c/Users/Papiya/AppData/Local/Programs/Eclipse Adoptium/jdk-17.0.7.7-hotspot/bin:/mnt/c/Users/Papiya/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Papiya/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.2/bin:/mnt/c/Users/Papiya/AppData/Local/GitHubDesktop/bin:/snap/bin'), ('WT_SESSION', '7847f9b2-dccd-4315-b16a-5f2f5b87707c'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pallab/ros2_ws/install/hospital_robot_spawner:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pallab/project4_ws/src/build/turtlebot3_project3'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pallab/ros2_ws/install/hospital_robot_spawner/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/home/pallab/ros2_ws/install/hospital_robot_spawner:/opt/ros/humble')]), 'shell': False}
+[12.622280] (turtlebot3_project3) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.624327] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/lib/turtlebot3_project3/turtlebot3_drive\n'}
+[12.631670] (turtlebot3_project3) StdoutLine: {'line': b'-- Set runtime path of "/home/pallab/project4_ws/src/install/turtlebot3_project3/lib/turtlebot3_project3/turtlebot3_drive" to ""\n'}
+[12.631967] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//launch\n'}
+[12.633486] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//launch/empty_world.launch.py\n'}
+[12.633698] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//launch/robot_state_publisher.launch.py\n'}
+[12.633834] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//launch/competition_world.launch.py\n'}
+[12.634012] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//launch/spawn_turtlebot3.launch.py\n'}
+[12.634167] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//models\n'}
+[12.634606] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_waffle\n'}
+[12.634878] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_waffle/model.config\n'}
+[12.635354] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_waffle/model.sdf\n'}
+[12.635843] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_waffle/model-1_4.sdf\n'}
+[12.636347] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_world\n'}
+[12.636569] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_world/model.config\n'}
+[12.636954] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_world/model.sdf\n'}
+[12.637461] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_world/model-1_4.sdf\n'}
+[12.638075] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_world/meshes\n'}
+[12.638254] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_world/meshes/wall.dae\n'}
+[12.638712] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_world/meshes/hexagon.dae\n'}
+[12.639068] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_common\n'}
+[12.639648] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_common/model.config\n'}
+[12.640191] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_common/meshes\n'}
+[12.640576] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_common/meshes/lds.dae\n'}
+[12.641563] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_common/meshes/r200.dae\n'}
+[12.643241] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_common/meshes/waffle_pi_base.dae\n'}
+[12.643671] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_common/meshes/burger_base.dae\n'}
+[12.644106] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_common/meshes/waffle_base.dae\n'}
+[12.644561] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_common/meshes/tire.dae\n'}
+[12.645334] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//rviz\n'}
+[12.645881] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//rviz/tb3_gazebo.rviz\n'}
+[12.646315] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//urdf\n'}
+[12.646933] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//urdf/common_properties.urdf\n'}
+[12.647376] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//urdf/turtlebot3_waffle.urdf\n'}
+[12.647970] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//worlds\n'}
+[12.648469] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//worlds/competition_world.world\n'}
+[12.649430] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//worlds/empty_world.world\n'}
+[12.649885] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/include/\n'}
+[12.650166] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/include//turtlebot3_project3\n'}
+[12.650533] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/include//turtlebot3_project3/turtlebot3_drive.hpp\n'}
+[12.650663] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/lib/turtlebot3_project3/teleop.py\n'}
+[12.650899] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/lib/turtlebot3_project3/astar_sim.py\n'}
+[12.651120] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/lib/turtlebot3_project3/vel_publisher.py\n'}
+[12.651494] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/ament_index/resource_index/package_run_dependencies/turtlebot3_project3\n'}
+[12.651591] (-) TimerEvent: {}
+[12.652136] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/ament_index/resource_index/parent_prefix_path/turtlebot3_project3\n'}
+[12.652934] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3/environment/ament_prefix_path.sh\n'}
+[12.653445] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3/environment/ament_prefix_path.dsv\n'}
+[12.653960] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3/environment/path.sh\n'}
+[12.654346] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3/environment/path.dsv\n'}
+[12.654719] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3/local_setup.bash\n'}
+[12.655250] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3/local_setup.sh\n'}
+[12.655609] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3/local_setup.zsh\n'}
+[12.655922] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3/local_setup.dsv\n'}
+[12.656234] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3/package.dsv\n'}
+[12.656703] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/ament_index/resource_index/packages/turtlebot3_project3\n'}
+[12.657006] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[12.657319] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.657580] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3/cmake/turtlebot3_project3Config.cmake\n'}
+[12.657982] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3/cmake/turtlebot3_project3Config-version.cmake\n'}
+[12.658340] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3/package.xml\n'}
+[12.660412] (turtlebot3_project3) CommandEnded: {'returncode': 0}
+[12.710428] (turtlebot3_project3) JobEnded: {'identifier': 'turtlebot3_project3', 'rc': 0}
+[12.711927] (-) EventReactorShutdown: {}

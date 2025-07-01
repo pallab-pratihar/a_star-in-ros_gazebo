@@ -1,0 +1,67 @@
+[0.103s] Invoking command in '/home/pallab/project4_ws/src/build/turtlebot3_project3': CMAKE_PREFIX_PATH=/home/pallab/ros2_ws/install/hospital_robot_spawner:/opt/ros/humble /usr/bin/cmake --build /home/pallab/project4_ws/src/build/turtlebot3_project3 -- -j16 -l16
+[0.191s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o[0m
+[11.526s] [100%] [32m[1mLinking CXX executable turtlebot3_drive[0m
+[12.555s] [100%] Built target turtlebot3_drive
+[12.568s] Invoked command in '/home/pallab/project4_ws/src/build/turtlebot3_project3' returned '0': CMAKE_PREFIX_PATH=/home/pallab/ros2_ws/install/hospital_robot_spawner:/opt/ros/humble /usr/bin/cmake --build /home/pallab/project4_ws/src/build/turtlebot3_project3 -- -j16 -l16
+[12.614s] Invoking command in '/home/pallab/project4_ws/src/build/turtlebot3_project3': CMAKE_PREFIX_PATH=/home/pallab/ros2_ws/install/hospital_robot_spawner:/opt/ros/humble /usr/bin/cmake --install /home/pallab/project4_ws/src/build/turtlebot3_project3
+[12.621s] -- Install configuration: ""
+[12.623s] -- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/lib/turtlebot3_project3/turtlebot3_drive
+[12.630s] -- Set runtime path of "/home/pallab/project4_ws/src/install/turtlebot3_project3/lib/turtlebot3_project3/turtlebot3_drive" to ""
+[12.630s] -- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//launch
+[12.632s] -- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//launch/empty_world.launch.py
+[12.632s] -- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//launch/robot_state_publisher.launch.py
+[12.632s] -- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//launch/competition_world.launch.py
+[12.632s] -- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//launch/spawn_turtlebot3.launch.py
+[12.632s] -- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//models
+[12.633s] -- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_waffle
+[12.633s] -- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_waffle/model.config
+[12.634s] -- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_waffle/model.sdf
+[12.634s] -- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_waffle/model-1_4.sdf
+[12.635s] -- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_world
+[12.635s] -- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_world/model.config
+[12.635s] -- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_world/model.sdf
+[12.636s] -- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_world/model-1_4.sdf
+[12.636s] -- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_world/meshes
+[12.637s] -- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_world/meshes/wall.dae
+[12.637s] -- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_world/meshes/hexagon.dae
+[12.637s] -- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_common
+[12.638s] -- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_common/model.config
+[12.639s] -- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_common/meshes
+[12.639s] -- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_common/meshes/lds.dae
+[12.640s] -- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_common/meshes/r200.dae
+[12.642s] -- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_common/meshes/waffle_pi_base.dae
+[12.642s] -- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_common/meshes/burger_base.dae
+[12.642s] -- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_common/meshes/waffle_base.dae
+[12.643s] -- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_common/meshes/tire.dae
+[12.644s] -- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//rviz
+[12.644s] -- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//rviz/tb3_gazebo.rviz
+[12.645s] -- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//urdf
+[12.645s] -- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//urdf/common_properties.urdf
+[12.646s] -- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//urdf/turtlebot3_waffle.urdf
+[12.646s] -- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//worlds
+[12.647s] -- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//worlds/competition_world.world
+[12.648s] -- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3//worlds/empty_world.world
+[12.648s] -- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/include/
+[12.649s] -- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/include//turtlebot3_project3
+[12.649s] -- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/include//turtlebot3_project3/turtlebot3_drive.hpp
+[12.649s] -- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/lib/turtlebot3_project3/teleop.py
+[12.649s] -- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/lib/turtlebot3_project3/astar_sim.py
+[12.649s] -- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/lib/turtlebot3_project3/vel_publisher.py
+[12.650s] -- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/ament_index/resource_index/package_run_dependencies/turtlebot3_project3
+[12.650s] -- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/ament_index/resource_index/parent_prefix_path/turtlebot3_project3
+[12.651s] -- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3/environment/ament_prefix_path.sh
+[12.652s] -- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3/environment/ament_prefix_path.dsv
+[12.652s] -- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3/environment/path.sh
+[12.653s] -- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3/environment/path.dsv
+[12.653s] -- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3/local_setup.bash
+[12.654s] -- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3/local_setup.sh
+[12.654s] -- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3/local_setup.zsh
+[12.654s] -- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3/local_setup.dsv
+[12.655s] -- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3/package.dsv
+[12.655s] -- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/ament_index/resource_index/packages/turtlebot3_project3
+[12.655s] -- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.656s] -- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.656s] -- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3/cmake/turtlebot3_project3Config.cmake
+[12.656s] -- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3/cmake/turtlebot3_project3Config-version.cmake
+[12.657s] -- Installing: /home/pallab/project4_ws/src/install/turtlebot3_project3/share/turtlebot3_project3/package.xml
+[12.659s] Invoked command in '/home/pallab/project4_ws/src/build/turtlebot3_project3' returned '0': CMAKE_PREFIX_PATH=/home/pallab/ros2_ws/install/hospital_robot_spawner:/opt/ros/humble /usr/bin/cmake --install /home/pallab/project4_ws/src/build/turtlebot3_project3

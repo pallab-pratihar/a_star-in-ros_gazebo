@@ -1,0 +1,181 @@
+[0.027s] Invoking command in '/home/pallab/project4_ws/build/turtlebot3_project3': CMAKE_PREFIX_PATH=/home/pallab/ros2_ws/install/hospital_robot_spawner:/opt/ros/humble /usr/bin/cmake /home/pallab/project4_ws/src/turtlebot3_project3 -DCMAKE_INSTALL_PREFIX=/home/pallab/project4_ws/install/turtlebot3_project3
+[0.655s] -- The C compiler identification is GNU 11.4.0
+[1.105s] -- The CXX compiler identification is GNU 11.4.0
+[1.373s] -- Detecting C compiler ABI info
+[1.525s] -- Detecting C compiler ABI info - done
+[1.531s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.535s] -- Detecting C compile features
+[1.544s] -- Detecting C compile features - done
+[1.563s] -- Detecting CXX compiler ABI info
+[1.748s] -- Detecting CXX compiler ABI info - done
+[1.754s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.754s] -- Detecting CXX compile features
+[1.754s] -- Detecting CXX compile features - done
+[1.775s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.905s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.033s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.033s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[2.033s]   does not match the name of the calling package (gazebo).  This can lead to
+[2.033s]   problems in calling code that expects `find_package` result variables
+[2.033s]   (e.g., `_FOUND`) to follow a certain pattern.
+[2.033s] Call Stack (most recent call first):
+[2.033s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+[2.034s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[2.034s]   CMakeLists.txt:23 (find_package)
+[2.034s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.034s] [0m
+[2.034s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[2.044s] -- Checking for module 'bullet>=2.82'
+[2.059s] --   Found bullet, version 3.05
+[2.180s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[2.213s] -- Found assimp: /usr/include (found version "5.2.0") 
+[2.262s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[2.538s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[3.010s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[3.017s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.029s] -- Searching for dependencies of ignition-math6
+[3.033s] -- Looking for OGRE...
+[3.033s] -- OGRE_PREFIX_WATCH changed.
+[3.037s] -- Checking for module 'OGRE'
+[3.045s] --   Found OGRE, version 1.9.0
+[3.066s] -- Found Ogre Ghadamon (1.9.0)
+[3.380s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[3.389s] -- Looking for OGRE_Paging...
+[3.669s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[3.669s] -- Looking for OGRE_Terrain...
+[3.949s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[3.949s] -- Looking for OGRE_Property...
+[4.238s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[4.238s] -- Looking for OGRE_RTShaderSystem...
+[4.509s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[4.509s] -- Looking for OGRE_Volume...
+[4.786s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[4.786s] -- Looking for OGRE_Overlay...
+[5.050s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[18.978s] -- Looking for ignition-math6 -- found version 6.15.1
+[18.982s] -- Looking for ignition-transport8 -- found version 8.2.1
+[18.982s] -- Searching for dependencies of ignition-transport8
+[20.265s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[21.411s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[21.414s] -- Checking for module 'libzmq >= 4'
+[21.452s] --   Found libzmq , version 4.3.4
+[21.472s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[21.505s] -- Checking for module 'uuid'
+[21.517s] --   Found uuid, version 2.37.2
+[21.534s] -- Found UUID: TRUE  
+[21.537s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[21.538s] -- Searching for dependencies of ignition-msgs5
+[22.689s] -- Looking for ignition-math6 -- found version 6.15.1
+[22.699s] -- Checking for module 'tinyxml2'
+[22.706s] --   Found tinyxml2, version 9.0.0
+[22.756s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[22.764s] -- Looking for ignition-common3 -- found version 3.14.0
+[22.765s] -- Searching for dependencies of ignition-common3
+[22.793s] -- Looking for dlfcn.h - found
+[22.821s] -- Looking for libdl - found
+[22.822s] -- Found DL: TRUE  
+[22.897s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[22.901s] -- Searching for <ignition-common3> component [graphics]
+[22.910s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[22.910s] -- Searching for dependencies of ignition-common3-graphics
+[22.910s] -- Looking for ignition-math6 -- found version 6.15.1
+[22.917s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[22.918s] -- Searching for dependencies of ignition-fuel_tools4
+[24.159s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[24.169s] -- Checking for module 'jsoncpp'
+[24.177s] --   Found jsoncpp, version 1.9.5
+[24.197s] -- Found JSONCPP: TRUE  
+[24.203s] -- Checking for module 'libzip'
+[24.211s] --   Found libzip, version 1.7.3
+[24.230s] -- Found ZIP: TRUE  
+[24.230s] -- Looking for ignition-common3 -- found version 3.14.0
+[24.230s] -- Looking for ignition-math6 -- found version 6.15.1
+[24.231s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[24.239s] -- Found gazebo_ros_pkgs: 3.9.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)
+[24.242s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[24.339s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[24.347s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[24.359s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[24.382s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[24.408s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[24.470s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[24.497s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[24.562s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[24.567s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[25.794s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[27.072s] -- Found FastRTPS: /opt/ros/humble/include  
+[29.492s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[29.510s] -- Found Threads: TRUE  
+[29.587s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[29.643s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[29.724s] -- Configuring done
+[29.739s] -- Generating done
+[29.743s] -- Build files have been written to: /home/pallab/project4_ws/build/turtlebot3_project3
+[29.755s] Invoked command in '/home/pallab/project4_ws/build/turtlebot3_project3' returned '0': CMAKE_PREFIX_PATH=/home/pallab/ros2_ws/install/hospital_robot_spawner:/opt/ros/humble /usr/bin/cmake /home/pallab/project4_ws/src/turtlebot3_project3 -DCMAKE_INSTALL_PREFIX=/home/pallab/project4_ws/install/turtlebot3_project3
+[29.759s] Invoking command in '/home/pallab/project4_ws/build/turtlebot3_project3': CMAKE_PREFIX_PATH=/home/pallab/ros2_ws/install/hospital_robot_spawner:/opt/ros/humble /usr/bin/cmake --build /home/pallab/project4_ws/build/turtlebot3_project3 -- -j16 -l16
+[29.795s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o[0m
+[40.361s] [100%] [32m[1mLinking CXX executable turtlebot3_drive[0m
+[40.902s] [100%] Built target turtlebot3_drive
+[40.911s] Invoked command in '/home/pallab/project4_ws/build/turtlebot3_project3' returned '0': CMAKE_PREFIX_PATH=/home/pallab/ros2_ws/install/hospital_robot_spawner:/opt/ros/humble /usr/bin/cmake --build /home/pallab/project4_ws/build/turtlebot3_project3 -- -j16 -l16
+[40.918s] Invoking command in '/home/pallab/project4_ws/build/turtlebot3_project3': CMAKE_PREFIX_PATH=/home/pallab/ros2_ws/install/hospital_robot_spawner:/opt/ros/humble /usr/bin/cmake --install /home/pallab/project4_ws/build/turtlebot3_project3
+[40.922s] -- Install configuration: ""
+[40.923s] -- Installing: /home/pallab/project4_ws/install/turtlebot3_project3/lib/turtlebot3_project3/turtlebot3_drive
+[40.926s] -- Set runtime path of "/home/pallab/project4_ws/install/turtlebot3_project3/lib/turtlebot3_project3/turtlebot3_drive" to ""
+[40.926s] -- Installing: /home/pallab/project4_ws/install/turtlebot3_project3/share/turtlebot3_project3//launch
+[40.928s] -- Installing: /home/pallab/project4_ws/install/turtlebot3_project3/share/turtlebot3_project3//launch/empty_world.launch.py
+[40.928s] -- Installing: /home/pallab/project4_ws/install/turtlebot3_project3/share/turtlebot3_project3//launch/robot_state_publisher.launch.py
+[40.929s] -- Installing: /home/pallab/project4_ws/install/turtlebot3_project3/share/turtlebot3_project3//launch/competition_world.launch.py
+[40.929s] -- Installing: /home/pallab/project4_ws/install/turtlebot3_project3/share/turtlebot3_project3//launch/spawn_turtlebot3.launch.py
+[40.930s] -- Installing: /home/pallab/project4_ws/install/turtlebot3_project3/share/turtlebot3_project3//models
+[40.930s] -- Installing: /home/pallab/project4_ws/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_waffle
+[40.930s] -- Installing: /home/pallab/project4_ws/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_waffle/model.config
+[40.931s] -- Installing: /home/pallab/project4_ws/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_waffle/model.sdf
+[40.931s] -- Installing: /home/pallab/project4_ws/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_waffle/model-1_4.sdf
+[40.932s] -- Installing: /home/pallab/project4_ws/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_world
+[40.932s] -- Installing: /home/pallab/project4_ws/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_world/model.config
+[40.932s] -- Installing: /home/pallab/project4_ws/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_world/model.sdf
+[40.933s] -- Installing: /home/pallab/project4_ws/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_world/model-1_4.sdf
+[40.933s] -- Installing: /home/pallab/project4_ws/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_world/meshes
+[40.934s] -- Installing: /home/pallab/project4_ws/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_world/meshes/wall.dae
+[40.934s] -- Installing: /home/pallab/project4_ws/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_world/meshes/hexagon.dae
+[40.934s] -- Installing: /home/pallab/project4_ws/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_common
+[40.935s] -- Installing: /home/pallab/project4_ws/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_common/model.config
+[40.935s] -- Installing: /home/pallab/project4_ws/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_common/meshes
+[40.936s] -- Installing: /home/pallab/project4_ws/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_common/meshes/lds.dae
+[40.937s] -- Installing: /home/pallab/project4_ws/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_common/meshes/r200.dae
+[40.939s] -- Installing: /home/pallab/project4_ws/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_common/meshes/waffle_pi_base.dae
+[40.939s] -- Installing: /home/pallab/project4_ws/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_common/meshes/burger_base.dae
+[40.939s] -- Installing: /home/pallab/project4_ws/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_common/meshes/waffle_base.dae
+[40.940s] -- Installing: /home/pallab/project4_ws/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_common/meshes/tire.dae
+[40.940s] -- Installing: /home/pallab/project4_ws/install/turtlebot3_project3/share/turtlebot3_project3//rviz
+[40.941s] -- Installing: /home/pallab/project4_ws/install/turtlebot3_project3/share/turtlebot3_project3//rviz/tb3_gazebo.rviz
+[40.941s] -- Installing: /home/pallab/project4_ws/install/turtlebot3_project3/share/turtlebot3_project3//urdf
+[40.942s] -- Installing: /home/pallab/project4_ws/install/turtlebot3_project3/share/turtlebot3_project3//urdf/common_properties.urdf
+[40.942s] -- Installing: /home/pallab/project4_ws/install/turtlebot3_project3/share/turtlebot3_project3//urdf/turtlebot3_waffle.urdf
+[40.943s] -- Installing: /home/pallab/project4_ws/install/turtlebot3_project3/share/turtlebot3_project3//worlds
+[40.943s] -- Installing: /home/pallab/project4_ws/install/turtlebot3_project3/share/turtlebot3_project3//worlds/competition_world.world
+[40.944s] -- Installing: /home/pallab/project4_ws/install/turtlebot3_project3/share/turtlebot3_project3//worlds/empty_world.world
+[40.944s] -- Installing: /home/pallab/project4_ws/install/turtlebot3_project3/include/
+[40.945s] -- Installing: /home/pallab/project4_ws/install/turtlebot3_project3/include//turtlebot3_project3
+[40.945s] -- Installing: /home/pallab/project4_ws/install/turtlebot3_project3/include//turtlebot3_project3/turtlebot3_drive.hpp
+[40.945s] -- Installing: /home/pallab/project4_ws/install/turtlebot3_project3/lib/turtlebot3_project3/teleop.py
+[40.945s] -- Installing: /home/pallab/project4_ws/install/turtlebot3_project3/lib/turtlebot3_project3/astar_sim.py
+[40.946s] -- Installing: /home/pallab/project4_ws/install/turtlebot3_project3/lib/turtlebot3_project3/vel_publisher.py
+[40.946s] -- Installing: /home/pallab/project4_ws/install/turtlebot3_project3/share/ament_index/resource_index/package_run_dependencies/turtlebot3_project3
+[40.946s] -- Installing: /home/pallab/project4_ws/install/turtlebot3_project3/share/ament_index/resource_index/parent_prefix_path/turtlebot3_project3
+[40.947s] -- Installing: /home/pallab/project4_ws/install/turtlebot3_project3/share/turtlebot3_project3/environment/ament_prefix_path.sh
+[40.947s] -- Installing: /home/pallab/project4_ws/install/turtlebot3_project3/share/turtlebot3_project3/environment/ament_prefix_path.dsv
+[40.947s] -- Installing: /home/pallab/project4_ws/install/turtlebot3_project3/share/turtlebot3_project3/environment/path.sh
+[40.947s] -- Installing: /home/pallab/project4_ws/install/turtlebot3_project3/share/turtlebot3_project3/environment/path.dsv
+[40.947s] -- Installing: /home/pallab/project4_ws/install/turtlebot3_project3/share/turtlebot3_project3/local_setup.bash
+[40.947s] -- Installing: /home/pallab/project4_ws/install/turtlebot3_project3/share/turtlebot3_project3/local_setup.sh
+[40.947s] -- Installing: /home/pallab/project4_ws/install/turtlebot3_project3/share/turtlebot3_project3/local_setup.zsh
+[40.948s] -- Installing: /home/pallab/project4_ws/install/turtlebot3_project3/share/turtlebot3_project3/local_setup.dsv
+[40.948s] -- Installing: /home/pallab/project4_ws/install/turtlebot3_project3/share/turtlebot3_project3/package.dsv
+[40.948s] -- Installing: /home/pallab/project4_ws/install/turtlebot3_project3/share/ament_index/resource_index/packages/turtlebot3_project3
+[40.949s] -- Installing: /home/pallab/project4_ws/install/turtlebot3_project3/share/turtlebot3_project3/cmake/ament_cmake_export_include_directories-extras.cmake
+[40.949s] -- Installing: /home/pallab/project4_ws/install/turtlebot3_project3/share/turtlebot3_project3/cmake/ament_cmake_export_dependencies-extras.cmake
+[40.949s] -- Installing: /home/pallab/project4_ws/install/turtlebot3_project3/share/turtlebot3_project3/cmake/turtlebot3_project3Config.cmake
+[40.949s] -- Installing: /home/pallab/project4_ws/install/turtlebot3_project3/share/turtlebot3_project3/cmake/turtlebot3_project3Config-version.cmake
+[40.950s] -- Installing: /home/pallab/project4_ws/install/turtlebot3_project3/share/turtlebot3_project3/package.xml
+[40.951s] Invoked command in '/home/pallab/project4_ws/build/turtlebot3_project3' returned '0': CMAKE_PREFIX_PATH=/home/pallab/ros2_ws/install/hospital_robot_spawner:/opt/ros/humble /usr/bin/cmake --install /home/pallab/project4_ws/build/turtlebot3_project3
